@@ -1505,7 +1505,7 @@ Notes: This product is a web software application and is not subject to the requ
 <tbody>
 <tr>
 <td>501.1 Scope – Incorporation of WCAG 2.x AA</td>
-<td>See <a href="#WCAG">WCAG 2.x</a> section</td>
+<td>See <a href="#wcag-2x-report">WCAG 2.x</a> section</td>
 <td>See information in WCAG section</td>
 </tr>
 <tr>
@@ -1630,7 +1630,7 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.2 Content Creation or Editing (if not authoring tool, enter “not applicable”)</td>
-<td headers="504-authoring chap-5-conformance">See <a href="#WCAG">WCAG 2.x</a> section</td>
+<td headers="504-authoring chap-5-conformance">See <a href="#wcag-2x-report">WCAG 2.x</a> section</td>
 <td headers="504-authoring chap-5-remarks">See information in WCAG section</td>
 </tr>
 <tr>
@@ -1685,7 +1685,7 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 </tr>
 <tr>
 <td headers="602-documentation chap-6-criteria">602.3 Electronic Support Documentation</td>
-<td headers="602-documentation chap-6-conformance">See WCAG 2.x section</td>
+<td headers="602-documentation chap-6-conformance">See <a href="#wcag-2x-report">WCAG 2.x</a> section</td>
 <td headers="602-documentation chap-6-remarks">See information in WCAG 2.x section</td>
 </tr>
 <tr>
