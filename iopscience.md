@@ -1221,7 +1221,7 @@ Electronic Docs: Supports
 <td>Web: Most interactive elements have a suitable focus indicator.<br><br>
 There are different styles of focus indicator depending on the element type:
 <ul>
-<li>Links – Red (#cc000) background with white (#ffffff) text</li>
+<li>Links – Red (#cc0000) background with white (#ffffff) text</li>
 <li>Footer links – White (#ffffff) background with dark grey (#333333) text</li>
 <li>Linked images – Red (#cc0000) and white (#ffffff) outline</li>
 <li>Buttons – Red (#cc0000) background with white (#ffffff) square brackets wrapping the button text.</li>
