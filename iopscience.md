@@ -479,7 +479,7 @@ Revised Section 508
 Electronic Docs: Supports
 </td>
 <td>Web: Where user interface elements are repeated across multiple web pages, a bypass block is provided to reach the main content of the page. These bypass blocks are only triggered when tabbing with a keyboard through the user interface.<br><br>
-A ”Skip to main content” link has been implemented to allow users to navigate directly to the main content of pages.<br><br>
+A ”Skip to content” is at the beginning of each page, allowing users to navigate directly to the main content.<br><br>
 On pages with search functionality containing filters for content, skip links are implemented immediately before the filters to allow users to skip to search results.<br><br>
 Page content is organized using ARIA landmarks with labels to allow users of assistive technology to navigate directly to blocks of content.<br><br>
 Electronic Docs: Does not apply.
