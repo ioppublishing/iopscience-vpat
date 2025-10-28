@@ -848,7 +848,7 @@ Content that expands and collapses is given the <code>aria-expanded</code> attri
 For links with the same label repeated on the same page, additional context is provided through the <code>aria-label</code> and <code>aria-labelledby</code> attributes to ensure they are unique and meaningful to users of assistive technology.<br><br>
 For links that are repeated and go to the same destination, the same label and accessible name is used, so that they may be consistently identified.<br><br>
 There are instances where the styles of links and buttons are interchangeable. The correct role is manually applied along with the native browser behaviour.<br><br>
-Adverts are inserted in pages using iFrames. These frames are all titled “3rd part ad content”.<br><br>
+Adverts are inserted in pages using iFrames. These frames are all titled “3rd party ad content”.<br><br>
 Advertising banners have button controls within them that do not have a visible label or an accessible name, so their function is not clear to users of assistive technology.<br><br>
 Electronic Docs: Not applicable to PDFs.
 </td>
