@@ -50,7 +50,7 @@ The terms used in the Conformance Level information are defined as follows:
 - **Not Applicable**: The criterion is not relevant to the product.
 - **Not Evaluated**: The product has not been evaluated against the criterion. This can be used only in WCAG Level AAA.
 
-## WCAG 2.x Report<a name="wcag-2x-report"></a>
+## WCAG 2.x Report<a id="wcag-2x-report"></a>
 
 Tables 1 and 2 also document conformance with:
 - EN 301 549:
@@ -63,6 +63,299 @@ Tables 1 and 2 also document conformance with:
   - Chapter 6 – 602.3 Electronic Support Documentation
 
 **Note**: When reporting on conformance with the WCAG 2.1 Success Criteria, they are scoped for full pages, complete processes, and accessibility-supported ways of using technology as documented in the [WCAG 2.1 Conformance Requirements](https://www.w3.org/TR/WCAG21/#conformance-reqs).
+
+### WCAG Quick Reference
+<table>
+<thead>
+<tr>
+<th><strong>Criteria</strong></th>
+<th><strong>Level</strong></th>
+<th><strong>Conformance Level </strong></th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#non-text-content"><strong>1.1.1 Non-text Content</strong></a></td>
+<td>A</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#audio-only-and-video-only-prerecorded"><strong>1.2.1 Audio-only and Video-only (Prerecorded)</strong></a></td>
+<td>A</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#captions-prerecorded"><strong>1.2.2 Captions (Prerecorded)</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#audio-description-or-media-alternative-prerecorded"><strong>1.2.3 Audio Description or Media Alternative (Prerecorded)</strong></a></td>
+<td>A</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#captions-live"><strong>1.2.4 Captions (Live)</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F17474;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#audio-description-prerecorded"><strong>1.2.5 Audio Description (Prerecorded)</strong></a></td>
+<td>AA</td>
+<td>Does Not Support</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#info-and-relationships"><strong>1.3.1 Info and Relationships</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#meaningful-sequence"><strong>1.3.2 Meaningful Sequence</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#sensory-characteristics"><strong>1.3.3 Sensory Characteristics</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#orientation"><strong>1.3.4 Orientation</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#use-of-color"><strong>1.4.1 Use of Color</strong></a></td>
+<td>A</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#audio-control"><strong>1.4.2 Audio Control</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#contrast-minimum"><strong>1.4.3 Contrast (Minimum)</strong></a></td>
+<td>AA</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#resize-text"><strong>1.4.4 Resize Text</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#images-of-text"><strong>1.4.5 Images of Text</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#reflow"><strong>1.4.10 Reflow</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#non-text-contrast"><strong>1.4.11 Non-text Contrast</strong></a></td>
+<td>AA</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#text-spacing"><strong>1.4.12 Text Spacing</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#content-on-hover-or-focus"><strong>1.4.13 Content on Hover or Focus</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#keyboard"><strong>2.1.1 Keyboard</strong></a></td>
+<td>A</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#no-keyboard-trap"><strong>2.1.2 No Keyboard Trap</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#character-key-shortcuts"><strong>2.1.4 Character Key Shortcuts</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#timing-adjustable"><strong>2.2.1 Timing Adjustable</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#pause-stop-hide"><strong>2.2.2 Pause, Stop, Hide</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#three-flashes-or-below-threshold"><strong>2.3.1 Three Flashes or Below Threshold</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#bypass-blocks"><strong>2.4.1 Bypass Blocks</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#page-titled"><strong>2.4.2 Page Titled</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#focus-order"><strong>2.4.3 Focus Order</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#link-purpose-in-context"><strong>2.4.4 Link Purpose (In Context)</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#multiple-ways"><strong>2.4.5 Multiple Ways</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#headings-and-labels"><strong>2.4.6 Headings and Labels</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#focus-visible"><strong>2.4.7 Focus Visible</strong></a></td>
+<td>AA</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#pointer-gestures"><strong>2.5.1 Pointer Gestures</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#pointer-cancellation"><strong>2.5.2 Pointer Cancellation</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#label-in-name"><strong>2.5.3 Label in Name</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#motion-actuation"><strong>2.5.4 Motion Actuation</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F17474;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a></td>
+<td>AA</td>
+<td>Does Not Support</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#language-of-page"><strong>3.1.1 Language of Page</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#language-of-parts"><strong>3.1.2 Language of Parts</strong></a></td>
+<td>AA</td>
+<td>Not Applicable</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#on-focus"><strong>3.2.1 On Focus</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#on-input"><strong>3.2.2 On Input</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#consistent-navigation"><strong>3.2.3 Consistent Navigation</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#consistent-identification"><strong>3.2.4 Consistent Identification</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#consistent-help"><strong>3.2.6 Consistent Help</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#error-identification"><strong>3.3.1 Error Identification</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#labels-or-instructions"><strong>3.3.2 Labels or Instructions</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#error-suggestion"><strong>3.3.3 Error Suggestion</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#error-prevention-legal-financial-data"><strong>3.3.4 Error Prevention (Legal, Financial, Data)</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#redundant-entry"><strong>3.3.7 Redundant Entry</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#parsing"><strong>4.1.1 Parsing (Obsolete and removed)</strong></a></td>
+<td>A</td>
+<td>Supports</td>
+</tr>
+<tr style="background-color:#F4B084;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#name-role-value"><strong>4.1.2 Name, Role, Value</strong></a></td>
+<td>A</td>
+<td>Partially Supports</td>
+</tr>
+<tr style="background-color:#C6E0B4;color:#000000">
+<td><a style="color:#000000;text-decoration:underline" href="#status-messages"><strong>4.1.3 Status Messages</strong></a></td>
+<td>AA</td>
+<td>Supports</td>
+</tr>
+</tbody>
+</table>
 
 ### Table 1: Success Criteria, Level A
 
