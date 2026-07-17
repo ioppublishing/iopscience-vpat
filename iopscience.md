@@ -1476,7 +1476,7 @@ Revised Section 508 - does not apply
 <strong>Examples of Does Not Support</strong>
 <ul>
 <li>We cannot guarantee that colours used in author supplied figures meet contrast requirements, but we are continually updating our author guidelines to encourage considering accommodations for accessibility in data visualisation. Figures are accompanied by a caption which also should help describe their contents.</li>
-<ul>
+</ul>
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
