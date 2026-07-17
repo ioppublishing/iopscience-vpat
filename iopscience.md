@@ -1,8 +1,8 @@
 # IOPscience Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5rev)
 
-**Name of Product/Version**: 21.77.0  
-**Report Date**: 20 October 2025  
+**Name of Product/Version**: 22.34.0  
+**Report Date**: 17 July 2026  
 **Product Description**: Academic journal repository  
 **Contact information**: jordan.rogers@ioppublishing.org, customerservices@ioppublishing.org  
 **Notes**:  
@@ -29,6 +29,7 @@ This report covers the degree of conformance for the following accessibility sta
 <tr>
 <td><a href="https://www.w3.org/TR/WCAG22/">Web Content Accessibility Guidelines 2.2</a></td>
 <td nowrap>Level A &nbsp; – &nbsp; <strong>Yes</strong><br>Level AA &nbsp; – &nbsp; <strong>Yes</strong><br>Level AAA &nbsp; – &nbsp; <strong>No</strong></td>
+</tr>
 <tr>
 <td><a href="https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines">Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018</a> </td>
 <td nowrap><strong>Yes</strong></td>
@@ -174,10 +175,10 @@ Tables 1 and 2 also document conformance with:
 <td>AA</td>
 <td>Supports</td>
 </tr>
-<tr style="background-color:#F4B084;color:#000000">
+<tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#keyboard"><strong>2.1.1 Keyboard</strong></a></td>
 <td>A</td>
-<td>Partially Supports</td>
+<td>Supports</td>
 </tr>
 <tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#no-keyboard-trap"><strong>2.1.2 No Keyboard Trap</strong></a></td>
@@ -234,10 +235,10 @@ Tables 1 and 2 also document conformance with:
 <td>AA</td>
 <td>Supports</td>
 </tr>
-<tr style="background-color:#F4B084;color:#000000">
+<tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#focus-visible"><strong>2.4.7 Focus Visible</strong></a></td>
 <td>AA</td>
-<td>Partially Supports</td>
+<td>Supports</td>
 </tr>
 <tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a></td>
@@ -264,10 +265,10 @@ Tables 1 and 2 also document conformance with:
 <td>A</td>
 <td>Supports</td>
 </tr>
-<tr style="background-color:#F17474;color:#000000">
+<tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a></td>
 <td>AA</td>
-<td>Does Not Support</td>
+<td>Supports</td>
 </tr>
 <tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a></td>
@@ -344,10 +345,10 @@ Tables 1 and 2 also document conformance with:
 <td>A</td>
 <td>Supports</td>
 </tr>
-<tr style="background-color:#F4B084;color:#000000">
+<tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#name-role-value"><strong>4.1.2 Name, Role, Value</strong></a></td>
 <td>A</td>
-<td>Partially Supports</td>
+<td>Supports</td>
 </tr>
 <tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#status-messages"><strong>4.1.3 Status Messages</strong></a></td>
@@ -387,13 +388,17 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Does Not Support
-</td>
-<td>
-Web: Dedicated alternative text is not provided for figures in article and book content. Instead, we instruct users to reference the related figure caption. We acknowledge that the caption may not always provide equivalent information.<br><br>
-There are a small number of images across the platform that are missing alternative text entirely, but we are working to identify these and provide descriptions.<br><br>
-Electronic Docs: Text alternatives are not provided for non-text content.
+<td>Web: Partially Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>The majority of images on IOPscience have text descriptions provided through the HTML <code>alt</code> attribute.</li>
+<li>Any imagery considered to be purely decorative will include an empty <code>alt</code> attribute so that assistive technology knows to ignore them.</li>
+<li>If a suitable image description can already be found in the surrounding text, the image will not be highlighted to screen readers to avoid repeating the same information.</li>
+</ul>
+<strong>Examples of Does Not Support</strong>
+<ul>
+<li>For figure images, we utilise the <code>alt</code> attribute by instructing users to refer to the related caption. We acknowledge that the text in the caption may not always completely describe the image contents.</li>
+</ul>
 </td>
 </tr>
 <tr id="audio-only-and-video-only-prerecorded" valign="top">
@@ -415,12 +420,19 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Video abstracts embedded in journal papers, provided by authors of journal papers, come with separate text transcript file.<br><br>
-Occasionally we will publish video or audio content provided by third parties. This may not always be accompanied by a transcript.<br><br>
-Electronic Docs: PDFs do not include audio or video media.
+<td>Web: Partially Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Video abstracts are accompanied by a transcript. A link to the transcript is located immediately below the video.</li>
+<li>For videos embeded with the Youtube player, a transcript is available when watching the video directly on the Youtube website.</li>
+</ul>
+<strong>Examples of Does Not Support</strong>
+<ul>
+<li>For some video abstracts, not all visual detail is recorded.</li>
+<li>Some video figures which would benefit from a transcript do not have one.</li>
+</ul>
+<strong>Workarounds</strong>
+<p>Readers may reach out to our customer services team <a href="mailto:customerservices@ioppublishing.org">customerservices@ioppublishing.org</a> to request an alternative version.</p>
 </td>
 </tr>
 <tr id="captions-prerecorded" valign="top">
@@ -442,11 +454,14 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports
 </td>
-<td>Web: When necessary, videos have automated closed captions. These can be turned on and off within the video player interface along with options for caption text customisation.<br><br>
-Electronic Docs: PDFs do not include videos.
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>The majority of videos are embeded in the website using the Brightcove media player, captions may be turned on or off and their appearance customised.</li>
+<li>For any videos embeded using the Youtube media player, captions may be turned on and off.</li>
+</ul>
 </td>
 </tr>
 <tr id="audio-description-or-media-alternative-prerecorded" valign="top">
@@ -468,12 +483,18 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Partially Supports
 </td>
-<td>Web: Video abstracts embedded in journal papers, provided by authors of journal papers, are accompanied by a text transcript file. We do not guarantee that all videos hosted on the platform include this.<br><br>
-We currently do not provide any audio description for videos.<br><br>
-Electronic Docs: PDFs do not include videos.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Video abstracts are accompanied by a text transcript. A link to the transcript is located immediately below the video.</li>
+</ul>
+<strong>Examples of Does Not Support</strong>
+<ul>
+<li>Videos do not have audio description</li>
+</ul>
+<strong>Workarounds</strong>
+<p>Readers may reach out to our customer services team <a href="mailto:customerservices@ioppublishing.org">customerservices@ioppublishing.org</a> to request an alternative version.</p>
 </td>
 </tr>
 <tr id="info-and-relationships" valign="top">
@@ -496,11 +517,16 @@ Revised Section 508
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Web: Supports<br><br>
-Electronic Docs: Does Not Support
 </td>
-<td>Web: The IOPscience platform is structured using semantic HTML patterns and has integrated Aria attributes where applicable to assist users of assistive technology in understanding the structure and content of web pages.<br><br>
-We are aware that on some older pages there may be instances of incorrect heading levels being used. We are working to update this. All new content that is generated will follow the correct heading structure as defined in the WCAG 2.2 guidelines.<br><br>
-Electronic Docs: We currently do not support PDF tagging and so document structure is not exposed to assistive technologies.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Content is built using the appropriate HTML elements. For example, headings will always be markedup using heading tags.</li>
+<li>ARIA attributes are used to provide increased detail to assistive technologies, such as when an accordion widget is expanded or collapsed.</li>
+<li>Landmark regions are used to section pages, allowing readers to move easily from area to area.</li>
+<li>A logical heading structure is used to organise information.</li>
+<li>Forms are constructed using fieldsets to group related fields. All fields are labelled.</li>
+<li>Groups of links are constructed using either unordered or ordered HTML lists, so that readers can identify how many links exist and skip over entire lists when desired.</li>
+</ul>
 </td>
 </tr>
 <tr id="meaningful-sequence" valign="top">
@@ -522,11 +548,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Partially Supports
-</td>
-<td>Web: Content is structured in a linear fashion to read in a logical order. If the order of items is manipulated using CSS and the visual order and programmatic order differ, this will never have any impact on the meaning of content and the overall page. This is mostly reserved for creating page layouts and positioning content labels and eyebrow elements.<br><br>
-Electronic Docs: Content is presented in a visual logical reading order only, due to the absence of PDF tagging.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Content is structured in a linear fashion to read from left to right, top to bottom</li>
+<li>Thr DOM order matches the visual order so that tab focus and screen readers move in a predictable fashion.</li>
+<li>The order of content is dictated by the structural markup. CSS is used to style and position elements.</li>
+</ul>
 </td>
 </tr>
 <tr id="sensory-characteristics" valign="top">
@@ -548,10 +576,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>Any inclusion of sensory characteristics in instructions will be supplementary, not crucial to the understanding of content.</li>
+</ul>
 </td>
-<td>Web: Any inclusion of sensory characteristics in instructions for using content will be supplementary in nature and not crucial to the understanding of and interaction with content.</td>
 </tr>
 <tr id="use-of-color" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-without-color"><strong>1.4.1 Use of Color</strong></a> (Level A)
@@ -572,11 +603,20 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Partially Supports
+<td>Web: Partially Supports
 </td>
-<td>Web: We avoid using colour alone in the user interface of the website to convey information, however there may be some instances of author supplied content, such as figures, that do not fulfil this criterion. We have updated our author guidelines to educate and encourage the adoption of best practices around colour in data visualization, but we currently do not mandate that figures pass WCAG guidelines.<br><br>
-Electronic Docs: Like Web, we cannot guarantee that all visual assets supplied by authors meet compliance.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Colour alone is not relied upon in understanding the website's user interface.</li>
+<li>Links in bodies of text have an underline.</li>
+<li>Coloured form labels also have a text cue. For example required fields in a form will contain the word "required" in their associated label.</li>
+<li>Status messages have applicable roles. Error and warning messages will have the "alert" role and other messages the "status" role on top of having different colours to distinguish them.</li>
+<li>The focused style of elements provides additional visual cues alongside any change in colour. For example, focused navigation menu items receive a bottom border on focus as well as a change in background colour.</li>
+</ul>
+<strong>Examples of Does Not Support</strong>
+<ul>
+<li>Some author supplied figures do rely on colour alone to distinguish data. For example, the only way to distinguish lines in a line chart is by their colour. We have updated our author guidelines to encourage the adoption of best practices around colour in data visualization. We do not mandate that figures pass WCAG guidelines.</li>
+</ul>
 </td>
 </tr>
 <tr id="audio-control" valign="top">
@@ -599,9 +639,8 @@ Revised Section 508
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Web: Supports<br><br>
-Electronic Docs: Supports
 </td>
-<td>Web/Electronic Docs: There is no audio that plays automatically for more than 3 seconds on IOPscience.</td>
+<td>There is no content on IOPscience to which this success criterion applies.</td>
 </tr>
 <tr id="keyboard" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#keyboard-operation-keyboard-operable"><strong>2.1.1 Keyboard</strong></a> (Level A)
@@ -622,11 +661,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: While most content can be navigated using a keyboard or a keyboard interface, interactive figures in articles and books cannot. Currently only a pointer style input, such as a mouse, can be used to navigate such figures.<br><br>
-Electronic Docs: PDF documents only include links as interactive elements.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>All interactivity available through a mouse input and touch is available through keyboard input.</li>
+<li>Interactive figures may be manipulated using dragging movement with a mouse pointer or a finger. At the top of each figure is a keyboard accessible toolbar providing equivalent controls, such as panning, rotating and zooming.</li>
+<li>Elements are marked up with the most appropriate HTML tags, ensuring their behaviour is predictable and consistent. For example, the <code>&lt;button&gt;</code> tag is used to contruct buttons and is activated by either the SPACE or ENTER keys.</li>
+</ul>
 </td>
 </tr>
 <tr id="no-keyboard-trap" valign="top">
@@ -648,11 +689,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports
 </td>
-<td>Web: We make sure that keyboard focus does not become lost in the user interface. When content is presented in a modal, focus is moved to the first focusable element inside it. Focus is then intentionally trapped inside the modal, so it does not leave view. When closing a modal, focus is returned to the element that first opened it.<br><br>
-Electronic Docs: We do not include any functionality in PDF documents which would present such a risk.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>If focus is moved away from the main layer of the page, such as with popup windows, readers can exit either through a close button or using the ESCAPE key. Focus will be moved back to the element that initially triggered the popup.</li>
+</ul>
 </td>
 </tr>
 <tr id="character-key-shortcuts" valign="top">
@@ -670,10 +712,13 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience does not provide any single character key shortcuts. This success criterion does not apply.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: IOPscience does not provide any keyboard shortcuts.</td>
 </tr>
 <tr id="timing-adjustable" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-required-behaviors"><strong>2.2.1 Timing Adjustable</strong></a> (Level A 2.1 only)
@@ -694,10 +739,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience does not contain any time limits. This success criterion does not apply.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: IOPscience does not contain any time limits.</td>
 </tr>
 <tr id="pause-stop-hide" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#time-limits-pause"><strong>2.2.2 Pause, Stop, Hide</strong></a> (Level A)
@@ -718,11 +766,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports
 </td>
-<td>Web: The only instances of moving content on the website are rotating ad banners, served via Google’s advertising platform. In the top-right corner of each banner is a “More information” button, indicated by 3 vertical dots. Clicking on this button presents a new view, effectively pausing any motion. The button however does not have any visual label or programmatically accessible name, so it is not exposed to assistive technology.<br><br>
-Electronic Docs: There is no moving, scrolling, or blinking content in documents.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>The only instances of moving content on the website are rotating ad banners, served via Google’s advertising platform. In the top-right corner of each banner is a “More information” button, indicated by 3 vertical dots. Clicking on this button presents a new view, effectively pausing any motion. The button however does not have any visual label or programmatically accessible name, so it is not exposed to assistive technology.</li>
+</ul>
 </td>
 </tr>
 <tr id="three-flashes-or-below-threshold" valign="top">
@@ -744,10 +793,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience does not contain any flashing content. This success criterion does not apply.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: IOPscience does not contain any flashing content.</td>
 </tr>
 <tr id="bypass-blocks" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-skip"><strong>2.4.1 Bypass Blocks</strong></a> (Level A)
@@ -768,14 +820,15 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Where user interface elements are repeated across multiple web pages, a bypass block is provided to reach the main content of the page. These bypass blocks are only triggered when tabbing with a keyboard through the user interface.<br><br>
-A ”Skip to content” is at the beginning of each page, allowing users to navigate directly to the main content.<br><br>
-On pages with search functionality containing filters for content, skip links are implemented immediately before the filters to allow users to skip to search results.<br><br>
-Page content is organized using ARIA landmarks with labels to allow users of assistive technology to navigate directly to blocks of content.<br><br>
-Electronic Docs: Does not apply.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>A link is prepended to the main site navigation to allow readers to skip to the main content of the page.</li>
+<li>Pages with content facets have a link to skip to the main content of the page.</li>
+<li>Pages are split into regions using ARIA landmarks, allowing readers to move between them.</li>
+<li>Pages are constructed with logical headings, allowing readers to navigate from heading to heading when using assistive technology.</li>
+<li>Expandable and collapsible content, such as accordions, is collapsed by default to minimise the number of elements in the tabbing order on page load.</li>
+</ul>
 </td>
 </tr>
 <tr id="page-titled" valign="top">
@@ -797,12 +850,11 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Partially Supports
-</td>
-<td>Web: All pages have descriptive titles, implemented with the HTML “title” element. These titles are used to label tabs in web browsers. A breadcrumb structure is used to ensure titles are unique and communicate to users their location within the website.<br><br>
-Electronic Docs: PDFs display the file name, which consists of the author name, date published and journal name but is crucially missing the article title.<br><br>
-Suitable titles already exist in the metadata of PDF documents. We are reviewing our production workflow to see if we can switch to using the document title by default.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Pages have descriptive titles. A breadcrumb structure is used to help readers understand on which page, and which area of the site they currently are (e.g. "Issue 3 - Volume 4 - Journal of Physics: Energy - IOPscience").</li>
+<ul>
 </td>
 </tr>
 <tr id="focus-order" valign="top">
@@ -824,13 +876,14 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Focus moves through web pages sequentially in an order that is logical. The tab order of pages matches the reading order, moving left to right, top to bottom. When content is injected dynamically into web pages, it is added in to the tab order at the same point where it was triggered, to retain a logical flow.<br><br>
-Dialog windows and modals receive focus when opened. When closed, focus is returned to the invoking element.<br><br>
-When using skip links, focus is moved to the first focusable element in the block of content that the skip links target. <br><br>
-Electronic Docs: Focus moves in a linear fashion through PDF documents, matching the reading order.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>There is a logical focus order throughout pages, following left to right, top to bottom.</li>
+<li>The DOM order matches the visual order throughout pages making the focus movement predictable.</li>
+<li>Dialog windows receive focus when opened. When closed, focus is returned to the element which triggered it or the top of the page.</li>
+<li>"Skip" links move focus to the first focusable element within the target region.</li>
+</ul>
 </td>
 </tr>
 <tr id="link-purpose-in-context" valign="top">
@@ -853,11 +906,13 @@ Revised Section 508
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Web: Supports<br><br>
-Electronic Docs: Supports
 </td>
-<td>Web/Electronic Docs: Most links describe their destination and action through link text alone.<br><br>
-Where the visible link label may not be sufficient, full context is provided utilising the “aria-label” and “aria-labelledby” attributes. For example, where the same link text is repeated on the page (e.g. “View abstract” on Journal pages with multiple articles), the ARIA attributes make them programmatically unique, by adding the article title.<br><br>
-There are minimal instances where full link context cannot be determined from link text alone and relies on an enclosing paragraph. The W3C lists <a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H78">combining link text with its enclosing paragraph as a sufficient technique</a>.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Most links provide a clear description of their destination.</li>
+<li>When necessary supplementary information is provided by utilising ARIA attributes or visually hidden text.</li>
+<li>Links with identical names appear on some pages, such as the search results page. In such instances <a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H78">link context may be determined from the enclosing paragraph or list item</a>.</li>
+</ul>
 </td>
 </tr>
 <tr id="pointer-gestures" valign="top">
@@ -875,10 +930,13 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports
 </td>
-<td>Web/Electronic Docs: IOPscience contains no content that relies on multipoint or path-based gestures.</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience contains no content that relies on multipoint or path-based gestures. This success criterion does not apply.</li>
+</ul>
+</td>
 </tr>
 <tr id="pointer-cancellation" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#pointer-gestures"><strong>2.5.2 Pointer Cancellation</strong></a> (Level A 2.1 and 2.2)
@@ -895,10 +953,13 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports
 </td>
-<td>Web/Electronic Docs: No functionality is triggered on any type of platform down-event, such as “touchstart” and “mousedown”. If users accidentally click or touch a button by mistake, they can abort the action by simply moving the mouse pointer or finger away from the invoking element.</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Interactive elements are activated on the "Up" event. This means actions are only triggered when the user release a mouse click or a keyboard press, enabling them to abort the action by moving the mouse or keyboard focus away from the element before releasing.</li>
+</ul>
+</td>
 </tr>
 <tr id="label-in-name" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#label-in-name"><strong>2.5.3 Label in Name</strong></a> (Level A 2.1 and 2.2)
@@ -915,12 +976,13 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports
 </td>
-<td>Web/Electronic Docs: Components are named to have a matching visible label and accessible name.<br><br>
-Where more information is provided for users of assistive technology, this is added to the end of the accessible name. This is so speech-input users can still activate controls, even if the visible label and accessible name do not match, and labels do not lose meaning for text-to-speech users.<br><br>
-There are few cases where contextual information is appended to the beginning of the accessible name, to help provide more understanding of the behavior of links. For example, on links that initiate a download of a file, the text “Download” is appended to the accessible name.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Most elements have a matching visible label and programmatic accessible name. This means the label read aloud by screen readers will be identical to the visible label.</li>
+<li>If the accessible name includes a longer description, it and the visible label will still begin the same, to ensure that people who use speech input technology can effectively activate controls. For example on the search page where a "View article" link may appear multiple times, its accessible n ame is expanded to "View article &lt;article title&gt;".</li>
+</ul>
 </td>
 </tr>
 <tr id="motion-actuation" valign="top">
@@ -938,10 +1000,12 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>IOPScience contains no functionality operated by device motion or user motion. This success criterion does not apply.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: IOPScience has no functionality operated by device motion or user motion.</td>
 </tr>
 <tr id="language-of-page" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-doc-lang-id"><strong>3.1.1 Language of Page</strong></a> (Level A)
@@ -963,10 +1027,11 @@ Revised Section 508
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Web: Supports<br><br>
-Electronic Docs: Does Not Support
 </td>
-<td>Web: All pages have the lang=”en” attribute in the HTML to define the language content is written in.<br><br>
-Electronic Docs: We currently do not set the default language for PDF documents.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>All pages have the lang=”en” attribute in the <code>&lt;html&gt;</code> tag to establish the language content is written in.</li>
+</ul>
 </td>
 </tr>
 <tr id="on-focus" valign="top">
@@ -988,10 +1053,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>No changes in context are triggered by any component receiving focus. All changes rely on click and keypress events from the reader.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: No changes in context are triggered by any control receiving focus. All changes rely on click and keypress events.</td>
 </tr>
 <tr id="on-input" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#consistent-behavior-unpredictable-change"><strong>3.2.2 On Input</strong></a> (Level A)
@@ -1013,9 +1080,12 @@ Revised Section 508
 <li>602.3 (Support Docs)</li>
 </ul></td>
 <td>Web: Supports<br><br>
-Electronic Docs: Supports
 </td>
-<td>Web/Electronic Docs: Changing the setting of any user interface component does not automatically trigger a change of context. The user must manually trigger changes themselves (e.g. activating the “Apply” button after making any changes to search result filters). This ensures that the user interface responds in a predictable manner for users.</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>Changing the setting of any user interface component does not automatically trigger a change of context. The reader must manually trigger changes themselves (e.g. activating the “Apply” button after making any changes to search result filters). This ensures that the user interface responds in a predictable manner.</li>
+</ul></td>
 </tr>
 <tr id="consistent-help" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#consistent-help"><strong>3.2.6 Consistent Help</strong></a> (Level A 2.2 only)
@@ -1023,7 +1093,12 @@ Electronic Docs: Supports
 Revised Section 508 – Does not apply
 </td>
 <td>Web: Supports</td>
-<td>Web: Links to contact details and accessibility information can be found in the footer of the website on all pages.</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>A link to contact details and accessibility information is included in the footer of the website on all pages.</li>
+</ul>
+</td>
 </tr>
 <tr id="error-identification" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#minimize-error-identified"><strong>3.3.1 Error Identification</strong></a> (Level A)
@@ -1044,13 +1119,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Input errors are identified and communicated visually and programmatically so that users are made aware that entered data requires attention when necessary. Errors are displayed in a red box with black text, immediately next to the related input.<br><br>
-For search type inputs, an error will be displayed if no terms are entered before attempting to perform a search, or if the entered information is not in the requested format.<br><br>
-On forms with more inputs, errors are displayed in red text immediately below their related inputs. A summary of errors is also prepended to the form with the “alert” role, to communicate to users of assistive technology that attention is required. Error text is programmatically connected to its related inputs using “aria-describedby” attributes.<br><br>
-Electronic Docs: Not applicable to PDFs.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Input errors are identified and communicated visually and programmatically so that users are made aware that entered data requires attention when necessary. Errors are displayed in a red box with black text, immediately next to the related input.</li>
+<li>For search type inputs, an error will be displayed if no terms are entered before attempting to perform a search, or if the entered information is not in the requested format.</li>
+<li>On forms, errors are displayed in red text immediately below their related fields. A summary of errors is also prepended to the form with the “alert” role, to communicate to users of assistive technology that attention is required. Error text is programmatically related to its associated fields using “aria-describedby” attributes.</li>
+</ul>
 </td>
 </tr>
 <tr id="labels-or-instructions" valign="top">
@@ -1072,14 +1147,15 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
+<td>Web: Supports</td>
 
-<td>Web: A text label either proceeds or follows any form element. This either states the entry element required in the form or instructs the user as to how to interact with the element. Explicit relationships between elements and labels are created by utilising the <code>&lt;label&gt;</code> <code>for</code> attribute. We use semantic grouping for related form controls, by using a structure of <code>&lt;legend&gt;</code> and <code>&lt;fieldset&gt;</code> elements.<br><br>
-Even if a label is visually hidden, it will still be programmatically associated with its related element so that assistive technologies can access it.<br><br>
-Note: The “Article lookup” search form found in the top navigation bar of the website does provide error feedback, but the requirements for performing successful searches are not communicated ahead of time. We are working on adding instruction to the form to assist users.<br><br>
-Electronic Docs: Not applicable to PDFs.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>All form fields have an associated label immediately next to them.</li>
+<li>Related form fields are grouped together using a structure of <code>&lt;legend&gt;</code> and <code>&lt;fieldset&gt;</code> elements.</li>
+<li>If a form contains incomplete required fields, the reader will be alerted to the label of each field which has been omitted.</li>
+<li>Instructions are included for form fields which require a specific format. </li>
+</ul>
 </td>
 </tr>
 <tr id="redundant-entry" valign="top">
@@ -1088,7 +1164,10 @@ Electronic Docs: Not applicable to PDFs.
 Revised Section 508 – Does not apply
 </td>
 <td>Web: Supports</td>
-<td>Web: There are no instances on IOPscience where a user would be required to enter the same information more than once as part of the same process.</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>There are no instances on IOPscience where a user would be required to enter the same information more than once as part of the same process. This success criterion does not apply.</li>
+</ul></td>
 </tr>
 <tr id="parsing" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#ensure-compat-parses"><strong>4.1.1 Parsing</strong></a> (Level A)
@@ -1133,17 +1212,15 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: A combination of standard text, HTML attributes and ARIA attributes are used to communicate the Name, Role and Value of user interface components to assistive technology.<br><br>
-Content that expands and collapses is given the <code>aria-expanded</code> attribute to communicate its current state.<br><br>
-For links with the same label repeated on the same page, additional context is provided through the <code>aria-label</code> and <code>aria-labelledby</code> attributes to ensure they are unique and meaningful to users of assistive technology.<br><br>
-For links that are repeated and go to the same destination, the same label and accessible name is used, so that they may be consistently identified.<br><br>
-There are instances where the styles of links and buttons are interchangeable. The correct role is manually applied along with the native browser behaviour.<br><br>
-Adverts are inserted in pages using iFrames. These frames are all titled “3rd party ad content”.<br><br>
-Advertising banners have button controls within them that do not have a visible label or an accessible name, so their function is not clear to users of assistive technology.<br><br>
-Electronic Docs: Not applicable to PDFs.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Content that expands and collapses is given the <code>aria-expanded</code> attribute to communicate its current state.</li>
+<li>For links with the same label repeated on the same page, additional context is provided through the <code>aria-label</code> and <code>aria-labelledby</code> attributes to ensure they are unique and meaningful to users of assistive technology.</li>
+<li>For links that are repeated and go to the same destination, the same label and accessible name is used, so that they may be consistently identified.</li>
+<li>A third-party service is used to display advertising panels in pages. These are inserted via iframe and are identified by the title “3rd party ad content”.</li>
+</li>Pages are broken up into regions using ARIA landmark roles. If multiple of the same landmark exist on a page, they are provided with unique labels to identify them. For example, there is a "Site" navigation in the header of each page, and a "Further resources" navigation in the footer.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -1179,11 +1256,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: IOPscience does not contain any live audio.<br><br>
-Electronic Docs: PDFs do not include live video.
+<td>Web: Supports</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience does not contain live audio. This success criterion does not apply.</li>
+</ul>
 </td>
 </tr>
 <tr id="audio-description-prerecorded" valign="top">
@@ -1205,11 +1283,11 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Does Not Support<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Audio descriptions tracks are not available for video content. We are reviewing our media production process to explore how we may be able to support this in the future.<br><br>
-Electronic Docs: PDFs do not include video.
+<td>Web: Does Not Support</td>
+<td><strong>Examples of Does Not Support</strong>
+<ul>
+<li>Audio descriptions tracks are not available for video content. We are reviewing our media production process to explore how we may be able to provide this in the future.</li>
+</ul>
 </td>
 </tr>
 <tr id="orientation" valign="top">
@@ -1227,10 +1305,11 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: The layout and operation of the content will adapt to the orientation of the user’s display device (e.g. portrait and landscape modes).</td>
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>The layout and operation of the content will adapt to the orientation of the user’s display device (e.g. portrait and landscape modes).</li>
+</ul></td>
 </tr>
 <tr id="identify-input-purpose" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG21/#identify-input-purpose"><strong>1.3.5 Identify Input Purpose</strong></a> (Level AA 2.1 and 2.2)
@@ -1247,11 +1326,12 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Support<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: <code>&lt;input&gt;</code> elements are assigned a “type” attribute to help users understand what information should be entered. The HTML autocomplete attribute is assigned to appropriate form fields so that they may be populated by autofill values stored in the user’s browser.<br><br>
-Electronic Docs: PDFs do not include inputs.
+<td>Web: Support</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li><code>&lt;input&gt;</code> elements are assigned a “type” attribute to help users understand what information should be entered.</li>
+<li>The HTML autocomplete attribute is assigned to appropriate form fields so that they may be populated by autofill values stored in the user’s browser.</li>
+</ul>
 </td>
 </tr>
 <tr id="contrast-minimum" valign="top">
@@ -1273,11 +1353,24 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Partially Supports
+<td>Web: Partially Supports
 </td>
-<td>Web/Electronic Docs: All text and background colour combinations in the user interface have at least a contrast ratio of 4.5:1.<br><br>
-We cannot guarantee that author supplied content, such as figures, will always meet minimum contrast. Figures are accompanied with a caption to aid in the understanding of the visual information being presented.
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Text and background colour combinations that meet a minimum contrast of 4.5:1 are used to style the website.
+<ul>
+<li>Links are styled in red (#cc0000) and appear on white (#ffffff) and light grey (#f3f3f3) backgrounds, passing minimum contrast.</li>
+<li>Status and error messaged have green and red colour themes. Message text is a darker colour on top mof a lighter background. These pass minimum contrast.</li>
+<li>When text appears on dark grey (#3333333), such as in the website footer, it is white (#ffffff) and passes minimum contrast.</li>
+<li>Dark blue (#00619e) that appears on light blue (#ccddf6), such as in the website main navigation passes minimum contrast.</li>
+<li>Some logotypes do not meet minimum contrast, but the WCAG guidelines describe them from being exempt from the rule, such that changing their appearance may result in a loss of identity.</li>
+</ul>
+</li>
+</ul>
+<strong>Examples of Does Not Support</strong>
+<ul>
+<li>We cannot guarantee that author supplied content, such as figures, will always meet minimum contrast. Figures are accompanied with a caption to aid in the understanding of the visual information being presented.</li>
+</ul>
 </td>
 </tr>
 <tr id="resize-text" valign="top">
@@ -1299,10 +1392,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Text can be resized up to 200% without loss of content or functionality.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: Text can be resized up to 200% without loss of content or functionality.</td>
 </tr>
 <tr id="images-of-text" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-presentation"><strong>1.4.5 Images of Text</strong></a> (Level AA)
@@ -1323,20 +1418,13 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web/Electronic Docs: Images of text are not used on IOPscience.<br><br>
-Author supplied figures do contain images of text, but as they contain significant other visual content they are exempt, according to the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef">WCAG definition of images of text</a>.<br><br>
-Text in Journal and Book cover images are also exempt under the same definition.<br><br>
-IOPscience and 3rd party logos are included in the following areas:
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
 <ul>
-<li>IOPscience logo in the site navigation bar</li>
-<li>Journal and partner logos on journal and article pages</li>
-<li>ORCID ID logos next to author names on article pages</li>
-<li>Physics World Jobs logo at the top of the jobs board section on article pages</li>
+<li>Images of text are not used on IOPscience.</li>
+<li>Author supplied figures do contain images of text, but as they contain significant other visual content they are exempt, according to the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef">WCAG definition of images of text</a></li>
+<li>Logotypes including text are exempt from meeting the criteria based on WCAG’s definition, as the visual presentation of the text is essential to the identity of the logo.</li>
 </ul>
-Logos are also exempt from meeting the criteria based on WCAG’s definition, as the visual presentation of the text is essential to the identity of the logo.
 </td>
 </tr>
 <tr id="reflow" valign="top">
@@ -1354,13 +1442,12 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Web pages use a responsive layout that will adjust to the available screen space. For larger displays, such as desktops, layouts may be split into multiple columns. For smaller devices such as smartphones, layouts will collapse into a single column to make sure all information is visible on screen without the need to scroll in multiple directions simultaneously.<br><br>
-Note: When logged in to MyIOPscience, the “E-mail alerts tab does not reduce in width enough to properly display all information on devices with a screen width of 320px. We are updating our stylesheets to ensure that all content wraps and is visible on screen.<br><br>
-Note: On book pages, for viewports that have a width of 767px and less, the book download buttons are fixed to the bottom of the screen. At a width of 320px, the buttons become obstructed by the cookie consent button, which itself is pinned to the bottom left of the screen.<br><br>
-Electronic Docs: PDFs do not support reflow, as they are static in layout by nature.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Web pages use a responsive layout that will adjust to available screen space. For larger displays, such as desktops, layouts may be split into multiple columns. For smaller devices such as smartphones, layouts will collapse into a single column.</li>
+<li>Long strings of text and URLs will wrap to additional lines when required, so that the user does not need to scroll horizontally to read text.</li>
+</ul>
 </td>
 </tr>
 <tr id="non-text-contrast" valign="top">
@@ -1378,14 +1465,18 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Graphical elements such as icons have a minimum contrast of 3.1:1.<br><br>
-Underline used to identify the hover state of links have a minimum contrast of 3.1:1 with background colours.<br><br>
-Focused links receive a block background colour that is at least 3.1:1 contrast with both the link text and the surrounding background.<br><br>
-Some third-party logos (e.g. ORCID ID) do not meet the minimum contrast. <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#essential-exception">Logos are exempt</a>, as changing the colour to meet sufficient contrast may mean they are no longer identifiable.<br><br>
-We cannot guarantee that colours used in all figures supplied by authors meet contrast requirements, but we have updated our author guidance to inform and encourage adoption of the requirement in data visualisation.
+<td>Web: Partially Supports</td>
+<td><strong>Examples of supports</strong>
+<ul>
+<li>Graphical elements such as icons have a minimum contrast of 3.1:1</li>
+<li>Underline used to identify the hover state of links has a minimum contrast of 3.1:1 with background colours.</li>
+<li>Focused links receive a block background colour that is at least 3.1:1 contrast with both the link text and the surrounding background.</li>
+<li>Some third-party logos (e.g. ORCID ID) do not meet the minimum contrast. <a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#essential-exception">Logos are exempt</a>, as changing the colour to meet sufficient contrast may mean they are no longer identifiable.</li>
+</ul>
+<strong>Examples of Does Not Support</strong>
+<ul>
+<li>We cannot guarantee that colours used in author supplied figures meet contrast requirements, but we are continually updating our author guidelines to encourage considering accommodations for accessibility in data visualisation. Figures are accompanied by a caption which also should help describe their contents.</li>
+<ul>
 </td>
 </tr>
 <tr id="text-spacing" valign="top">
@@ -1403,18 +1494,17 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: When testing pages against the following criteria, the majority did not experience any loss of content or functionality:
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>When testing pages against the following criteria, the majority did not experience any loss of content or functionality:
 <ul>
 <li>Line height (line spacing) to at least 1.5 times the font size;</li>
 <li>Spacing following paragraphs to at least 2 times the font size;</li>
 <li>Letter spacing (tracking) to at least 0.12 times the font size;</li>
 <li>Word spacing to at least 0.16 times the font size.</li>
+</ul></li>
 </ul>
-Note: On the Home page, the headings of the news feeds overlap the “RSS feed” links. We are updating our stylesheets to fix this.<br><br>
-Electronic Docs: No requirement for PDF documents as they use a fixed content layout.
 </td>
 </tr>
 <tr id="content-on-hover-or-focus" valign="top">
@@ -1432,11 +1522,11 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Tooltips can be accessed and dismissed via mouse and/or keyboard input.<br><br>
-Electronic Docs: Our PDF documents do not include any content that is revealed on hover or focus.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Tooltips can be revealed and dismissed via mouse or keyboard controls.</li>
+</ul>
 </td>
 </tr>
 <tr id="multiple-ways" valign="top">
@@ -1458,11 +1548,14 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Core content, including journal articles and book chapters can be accessed through the Journals and Books home pages, and the site wide search functionality.<br><br>
-Journal alerts can be accessed in the “My IOPscience” dashboard under the “E-mail alerts” tab, or through links on Journal home and article pages.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>A list of Journals and books can be found on their respective hub pages or through the site search functionality.</li>
+<li>Alerts can be accessed in the “My IOPscience” dashboard under the “E-mail alerts” tab, or through links on Journal home and article pages.</li>
+<li>For any alert in the My IOPscience dashboard, there is a link back to the respective journal or search results.</li>
+<li>The "Download History" tab keeps a record of all full text articles that have been accessed over the last three months.</li>
+</ul>
 </td>
 </tr>
 <tr id="headings-and-labels" valign="top">
@@ -1484,10 +1577,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Headings and labels are concise and provide a clear description of thier related content.</li>
+</ul>
 </td>
-<td>Web/ Electronic Docs: All headings and labels are descriptive of their related content.</td>
 </tr>
 <tr id="focus-visible" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible"><strong>2.4.7 Focus Visible</strong></a> (Level AA)
@@ -1508,43 +1603,55 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Partially Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Most interactive elements have a suitable focus indicator.<br><br>
-There are different styles of focus indicator depending on the element type:
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<p>We use a variety of focus indicator styles to ensure focus remains visible in all scenarios. These styles are supported in high contrast modes and themes.
 <ul>
-<li>Links – Red (#cc0000) background with white (#ffffff) text</li>
+<li>Links – Red (#cc0000) background with white (#ffffff) text. If a link has an underlines, it is removed.</li>
 <li>Footer links – White (#ffffff) background with dark grey (#333333) text</li>
 <li>Linked images – Red (#cc0000) and white (#ffffff) outline</li>
 <li>Buttons – Red (#cc0000) background with white (#ffffff) square brackets wrapping the button text.</li>
 <li>Site wide navigation menu items – Red (#cc0000) background with a white (#ffffff) bottom border.</li>
 </ul>
-<strong>Known issues</strong><br>
-Some ad banners do not display a focus indicator when focused.<br><br>
-Electronic Docs: Focus in PDF documents uses default system styles.
 </td>
 </tr>
 <tr id="focus-not-obscured-minimum" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum"><strong>2.4.11 Focus Not Obscured (Minimum)</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
+</td>
 <td>Web: Supports</td>
-<td>Web: The focus indicator is always visible.</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>If any element receives keyboard focus, it will never be obscured, even by fixed elements on the page.</li>
+</ul>
+</td>
 </tr>
 <tr id="dragging-movements" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#dragging-movements"><strong>2.5.7 Dragging Movements</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
-<td>Web: Does Not Support</td>
-<td>Web: Interactive figures in Journal and Books content rely on dragging movements to interact with them, however dragging is not required to understand them. Figures are initially presented as a static image, and the interactive versions can be turned on and off by the user.</td>
+</td>
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>The only content that may utilised dragging movements on IOPscience is interactive figures. Using a mouse pointer or touch, figures may be rotated, panned and zoomed. At the top of each figure is a toolbar which provides equivalent controls which only require single pointer input, such as a mouse click or a single finger press on a touch screen.</li>
+</ul>
+</td>
 </tr>
 <tr id="target-size-minimum" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#target-size-minimum"><strong>2.5.8 Target Size (Minimum)</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
+</td>
 <td>Web: Supports</td>
-<td>Web: IOPscience uses targets with minimum dimensions of 24 by 24 CSS pixels. Undersized targets are accommodated with extra space around them, so that other targets are at least a distance of 24 CSS pixels away.</td>
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience uses targets with minimum dimensions of 24 by 24 CSS pixels. Undersized targets are accommodated with extra space around them, so that other targets are at least a distance of 24 CSS pixels away. This helps to avoid unintended clicks when elements are positioned too close to one another.</li>
+</ul>
+</td>
 </tr>
 <tr id="language-of-parts" valign="top">
 <td><a href="http://www.w3.org/TR/WCAG20/#meaning-other-lang-id"><strong>3.1.2 Language of Parts</strong></a> (Level AA)
@@ -1565,11 +1672,11 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Does Not Support
-</td>
-<td>Web: If any page content changes from the default language of the page, this is expressed programmatically using the HTML <code>lang</code> attribute with a suitable value on the containing element.<br><br>
-Electronic Docs: As we do not currently tag PDF documents, any change in language from the default for the document is not communicated.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience content is primarily written in English. For any content that is written in an alternative language, it is flagged to screen readers, so that they may use the correct pronunciations. In the HTML, text written in another language has a <code>lang</code> attribute with the relevant language code.</li>
+</ul>
 </td>
 </tr>
 <tr id="consistent-navigation" valign="top">
@@ -1591,13 +1698,16 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: The website header and footer navigation menus are the same across all pages.<br><br>
-On pages that support search and/or filter functionality, filters are positioned on the left and content results on the right. <br><br>
-On pages with pagination, controls are positioned immediately below content on the right side.<br><br>
-A “skip to content” link is provided at the top of each page.<br><br>
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>Header and footer navigation is the same across all pages.</li>
+<li>All pages are labelled with ARIA landmarks, including the header, main content, sidebars and footer.</li>
+<li>When performing a search, the chosen filters persist when results are updated.</li>
+<li>The login menu in the header navigation will reflect the current logged in state across all pages.</li>
+<li>For pages that have pagination, the pagination controls are always displayed at the bottom right, immediately below the item list.</li>
+<li>A "Skip to content" link is included immediately before the header navigation and is revealed on keyboard focus across all pages.</li>
+</ul>
 </td>
 </tr>
 <tr id="consistent-identification" valign="top">
@@ -1619,13 +1729,12 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs) – Does not apply to non-web docs</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>We use a consistent style for user interface components with functionality to help the user understand the functionality when appearing across multiple pages.<br><br>
-User interface components that are repeated across multiple pages have consistent labelling and styling.<br><br>
-Icons are used to identify controls for downloading electronic documents (e.g. PDF, Kindle, EPUB)<br><br>
-Components with specific scripted functionality (e.g. collapsible sections) are identified with the same icon.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>User interface components keep the same appearance and functionality across all pages.</li>
+<li>Icons are used to identify controls for downloading electronic documents (e.g. PDF, Kindle, EPUB).</li>
+</ul>
 </td>
 </tr>
 <tr id="error-suggestion" valign="top">
@@ -1647,13 +1756,15 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: If an error is identified, it is described and a solution for correction is offered.<br><br>
-When errors are detected, the conditions triggering the error and suggestions for correction are provided.<br><br>
-Required form fields that are left blank will result in an error message that the field must be populated to successfully submit the form.<br><br>
-Electronic Docs: Not applicable to PDFs.
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>If an error is identified, it is described and a solution for correction is offered.</li>
+<li>Required fields are identified with the aria-required property.</li>
+<li>Fields that require a specific input format will highlight this if incorrect information is entered.</li>
+<li>Alert text has the "alert" role to ensure they are communicated to assistive technology.</li>
+<li>Error text is connected to its related field using the aria-describedby property.
+</ul>
 </td>
 </tr>
 <tr id="error-prevention-legal-financial-data" valign="top">
@@ -1675,18 +1786,25 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
+<td>Web: Supports</td>
+<td><strong>Examples of Supports</strong>
+<ul>
+<li>IOPscience does not have any pages that included legal commitments or financial transactions.</li>
+</ul>
 </td>
-<td>Web/Electronic Docs: IOPscience does not have pages that included legal commitments or financial transactions.</td>
 </tr>
 <tr id="accessible-authentication-minimum" valign="top">
 <td><a href="https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum"><strong>3.3.8 Accessible Authentication (Minimum)</strong></a> (Level AA 2.2 only)
 <br><br>EN 301 549 Criteria – Does not apply<br><br>
 Revised Section 508 – Does not apply
+</td>
 <td>Web: Supports</td>
-<td>Web: The form fields during the login process have autocomplete enabled to allow the username and password to be populated by browsers and password managers.<br><br>
-The form fields also allow copy/paste functionality to avoid retyping entire usernames and passwords.
+<td>
+<strong>Examples of Supports</strong>
+<ul>
+<li>Form fields have autocomplete enabled to allow existing credentials to be automatically populated.</li>
+<li>Form fields allow copy/paste functionality to avoid retyping entire usernames and passwords.</li>
+</ul>
 </td>
 </tr>
 <tr id="status-messages" valign="top">
@@ -1704,13 +1822,15 @@ EN 301 549 Criteria
 </ul>
 Revised Section 508 - does not apply
 </td>
-<td>Web: Supports<br><br>
-Electronic Docs: Supports
-</td>
-<td>Web: Status messages are presented for both success and failure states.<br><br>
-Note: Some status and error message containers are injected dynamically into the page. For more robust screen reader support, these containers should be present on page load instead. We are working on making this change in the user interface.<br><br>
-Some status messages currently are assigned the role “alert” when it would be more appropriate to use “status” instead. We are working on updating this.<br><br>
-Electronic Docs: Not applicable to PDFs.
+<td>Web: Supports</td>
+<td>Web: <br><br>
+
+<strong>Examples of Supports</strong>
+<ul>
+<li>Status messages are displayed for all success and error feedback.</li>
+<li>Status messages use role=status.</li>
+<li>Error messages use role=alert.</li>
+</ul>
 </td>
 </tr>
 </tbody>
@@ -1766,7 +1886,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <tr>
 <td>302.7 With Limited Manipulation</td>
 <td>Supports</td>
-<td>The user interface is designed to support a variety of input methods. For touch navigation, on devices that support it, elements are designed to be large enough to not require very precise movements.</td>
+<td>The user interface is designed to support a variety of input methods. For touch navigation, on devices that support it, elements are designed to be large enough to not require very precise movements. For any content that utilises dragging movements, single pointer controls are also present to provide equivalent controls.</td>
 </tr>
 <tr>
 <td>302.8 With Limited Reach and Strength</td>
@@ -1775,7 +1895,7 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 </tr>
 <tr>
 <td>302.9 With Limited Language, Cognitive, and Learning Abilities</td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>Content is presented in a clean and logical layout, with plenty of space to avoid overloading of information on screen.  Due to the nature of the content, many abbreviations and acronyms are present within it.</td>
 </tr>
 </tbody>
@@ -1970,7 +2090,7 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="602-documentation chap-6-criteria">602.2 Accessibility and Compatibility Features</td>
-<td headers="602-documentation chap-6-conformance">Partially Supports</td>
+<td headers="602-documentation chap-6-conformance">Supports</td>
 <td headers="602-documentation chap-6-remarks">We stick to using traditional and recommended design patterns for accessible components.<br><br>
 Full details about application and usage can be found in our Accessibility statement: <a href="https://iopscience.iop.org/page/accessibility">https://iopscience.iop.org/page/accessibility</a>.     <br><br>
 Support provided via email at <a href="mailto:customerservices@ioppublishing.org">customerservices@ioppublishing.org</a>. 
@@ -1996,7 +2116,6 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 Support provided via email at <a href="mailto:customerservices@ioppublishing.org">customerservices@ioppublishing.org</a>.
 </td>
 </tr>
-<tr>
 <tr>
 <td headers="603-services chap-6-criteria">603.3 Accommodation of Communication Needs</td>
 <td headers="603-services chap-6-conformance">Supports</td>
@@ -2026,12 +2145,12 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 <tr>
 <td>4.2.2 Usage with limited vision</td>
 <td>Supports</td>
-<td>The website supports the use of assistive technology and provides for content to be magnified, and colour and contrast adjusted.</td>
+<td>Pages may be magnified without a loss of information or requiring to horizontally scroll. The website is compatible with high contrast themes, if users wish to use an alternative colour palette. ALl colour combinations are designed to meet a minimum contrast of 4.5:1, according to the WCAG guidelines.</td>
 </tr>
 <tr>
 <td>4.2.3 Usage without Perception of Color</td>
 <td>Supports</td>
-<td>We avoid using colour alone to convey information.</td>
+<td>We avoid using colour alone to convey information. When required links will have an underlines to help identify them amongst other text. Functional components, such as accordions, are accompanied by icons to communicate they are interactive and their current state.</td>
 </tr>
 <tr>
 <td>4.2.4 Usage without hearing</td>
@@ -2051,7 +2170,7 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 <tr>
 <td>4.2.7 Usage with limited manipulation or strength</td>
 <td>Supports</td>
-<td>The user interface is designed to support a variety of input methods. For touch navigation, on devices that support it, elements are designed to be large enough to not require very precise movements.</td>
+<td>The user interface is designed to support a variety of input methods. For touch navigation, on devices that support it, elements are designed to be large enough to not require very precise movements. For any content that utilises dragging movements, single pointer controls are also present to provide equivalent controls.</td>
 </tr>
 <tr>
 <td>4.2.8 Usage with limited reach</td>
@@ -2065,7 +2184,7 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 </tr>
 <tr>
 <td>4.2.10 Usage with limited cognition</td>
-<td>Partially Supports</td>
+<td>Supports</td>
 <td>Content is presented in a clean and logical layout, with plenty of space to avoid overloading of information on screen.  Due to the nature of the content, many abbreviations and acronyms are present within it.</td>
 </tr>
 <tr>
@@ -2116,12 +2235,10 @@ Notes:
 <td headers="7-caption chap-7-remarks"></td>
 </tr>
 <tr>
-<tr>
 <td headers="7-caption chap-7-criteria">7.1.4 Captions characteristics</td>
 <td headers="7-caption chap-7-conformance">Supports</td>
 <td headers="7-caption chap-7-remarks"></td>
 </tr>
-<tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.5 Spoken subtitles</td>
 <td headers="7-caption chap-7-conformance">Does Not Support</td>
