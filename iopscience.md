@@ -459,8 +459,8 @@ Revised Section 508
 <td>
 <strong>Examples of Supports</strong>
 <ul>
-<li>The majority of videos are embeded in the website using the Brightcove media player, captions may be turned on or off and their appearance customised.</li>
-<li>For any videos embeded using the Youtube media player, captions may be turned on and off.</li>
+<li>The majority of videos are embedded in the website using the Brightcove media player, captions may be turned on or off and their appearance customised.</li>
+<li>For any videos embedded using the YouTube media player, captions may be turned on and off.</li>
 </ul>
 </td>
 </tr>
