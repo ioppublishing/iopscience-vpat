@@ -665,7 +665,7 @@ Revised Section 508
 <ul>
 <li>All interactivity available through a mouse input and touch is available through keyboard input.</li>
 <li>Interactive figures may be manipulated using dragging movement with a mouse pointer or a finger. At the top of each figure is a keyboard accessible toolbar providing equivalent controls, such as panning, rotating and zooming.</li>
-<li>Elements are marked up with the most appropriate HTML tags, ensuring their behaviour is predictable and consistent. For example, the <code>&lt;button&gt;</code> tag is used to contruct buttons and is activated by either the SPACE or ENTER keys.</li>
+<li>Elements are marked up with the most appropriate HTML tags, ensuring their behaviour is predictable and consistent. For example, the <code>&lt;button&gt;</code> tag is used to construct buttons and is activated by either the SPACE or ENTER keys.</li>
 </ul>
 </td>
 </tr>
@@ -956,7 +956,7 @@ Revised Section 508 - does not apply
 </td>
 <td><strong>Examples of Supports</strong>
 <ul>
-<li>Interactive elements are activated on the "Up" event. This means actions are only triggered when the user release a mouse click or a keyboard press, enabling them to abort the action by moving the mouse or keyboard focus away from the element before releasing.</li>
+<li>Interactive elements are activated on the "Up" event. This means actions are only triggered when the user releases a mouse click or a keyboard press, enabling them to abort the action by moving the mouse or keyboard focus away from the element before releasing.</li>
 </ul>
 </td>
 </tr>
@@ -980,7 +980,7 @@ Revised Section 508 - does not apply
 <td><strong>Examples of Supports</strong>
 <ul>
 <li>Most elements have a matching visible label and programmatic accessible name. This means the label read aloud by screen readers will be identical to the visible label.</li>
-<li>If the accessible name includes a longer description, it and the visible label will still begin the same, to ensure that people who use speech input technology can effectively activate controls. For example on the search page where a "View article" link may appear multiple times, its accessible n ame is expanded to "View article &lt;article title&gt;".</li>
+<li>If the accessible name includes a longer description, it and the visible label will still begin the same, to ensure that people who use speech input technology can effectively activate controls. For example on the search page where a "View article" link may appear multiple times, its accessible name is expanded to "View article &lt;article title&gt;".</li>
 </ul>
 </td>
 </tr>
@@ -1002,7 +1002,7 @@ Revised Section 508 - does not apply
 <td>Web: Supports</td>
 <td><strong>Examples of Supports</strong>
 <ul>
-<li>IOPScience contains no functionality operated by device motion or user motion. This success criterion does not apply.</li>
+<li>IOPscience contains no functionality operated by device motion or user motion. This success criterion does not apply.</li>
 </ul>
 </td>
 </tr>
@@ -1359,8 +1359,8 @@ Revised Section 508
 <li>Text and background colour combinations that meet a minimum contrast of 4.5:1 are used to style the website.
 <ul>
 <li>Links are styled in red (#cc0000) and appear on white (#ffffff) and light grey (#f3f3f3) backgrounds, passing minimum contrast.</li>
-<li>Status and error messaged have green and red colour themes. Message text is a darker colour on top mof a lighter background. These pass minimum contrast.</li>
-<li>When text appears on dark grey (#3333333), such as in the website footer, it is white (#ffffff) and passes minimum contrast.</li>
+<li>Status and error messages have green and red colour themes. Message text is a darker colour on top of a lighter background. These pass minimum contrast.</li>
+<li>When text appears on dark grey (#333333), such as in the website footer, it is white (#ffffff) and passes minimum contrast.</li>
 <li>Dark blue (#00619e) that appears on light blue (#ccddf6), such as in the website main navigation passes minimum contrast.</li>
 <li>Some logotypes do not meet minimum contrast, but the WCAG guidelines describe them from being exempt from the rule, such that changing their appearance may result in a loss of identity.</li>
 </ul>
@@ -1606,7 +1606,7 @@ Revised Section 508
 <td><strong>Examples of Supports</strong>
 <p>We use a variety of focus indicator styles to ensure focus remains visible in all scenarios. These styles are supported in high contrast modes and themes.
 <ul>
-<li>Links – Red (#cc0000) background with white (#ffffff) text. If a link has an underlines, it is removed.</li>
+<li>Links – Red (#cc0000) background with white (#ffffff) text. If a link has an underline, it is removed.</li>
 <li>Footer links – White (#ffffff) background with dark grey (#333333) text</li>
 <li>Linked images – Red (#cc0000) and white (#ffffff) outline</li>
 <li>Buttons – Red (#cc0000) background with white (#ffffff) square brackets wrapping the button text.</li>
@@ -1762,7 +1762,7 @@ Revised Section 508
 <li>Required fields are identified with the aria-required property.</li>
 <li>Fields that require a specific input format will highlight this if incorrect information is entered.</li>
 <li>Alert text has the "alert" role to ensure they are communicated to assistive technology.</li>
-<li>Error text is connected to its related field using the aria-describedby property.
+<li>Error text is connected to its related field using the aria-describedby property.</li>
 </ul>
 </td>
 </tr>
@@ -2144,12 +2144,12 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 <tr>
 <td>4.2.2 Usage with limited vision</td>
 <td>Supports</td>
-<td>Pages may be magnified without a loss of information or requiring to horizontally scroll. The website is compatible with high contrast themes, if users wish to use an alternative colour palette. ALl colour combinations are designed to meet a minimum contrast of 4.5:1, according to the WCAG guidelines.</td>
+<td>Pages may be magnified without a loss of information or requiring to horizontally scroll. The website is compatible with high contrast themes, if users wish to use an alternative colour palette. All colour combinations are designed to meet a minimum contrast of 4.5:1, according to the WCAG guidelines.</td>
 </tr>
 <tr>
 <td>4.2.3 Usage without Perception of Color</td>
 <td>Supports</td>
-<td>We avoid using colour alone to convey information. When required links will have an underlines to help identify them amongst other text. Functional components, such as accordions, are accompanied by icons to communicate they are interactive and their current state.</td>
+<td>We avoid using colour alone to convey information. When required links will have an underline to help identify them amongst other text. Functional components, such as accordions, are accompanied by icons to communicate they are interactive and their current state.</td>
 </tr>
 <tr>
 <td>4.2.4 Usage without hearing</td>
