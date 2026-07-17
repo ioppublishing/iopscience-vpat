@@ -638,8 +638,7 @@ Revised Section 508
 <li>504.2 (Authoring Tool)</li>
 <li>602.3 (Support Docs)</li>
 </ul></td>
-<td>Web: Supports<br><br>
-</td>
+<td>Web: Supports</td>
 <td>There is no content on IOPscience to which this success criterion applies.</td>
 </tr>
 <tr id="keyboard" valign="top">
