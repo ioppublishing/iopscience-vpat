@@ -1219,7 +1219,7 @@ Revised Section 508
 <li>For links with the same label repeated on the same page, additional context is provided through the <code>aria-label</code> and <code>aria-labelledby</code> attributes to ensure they are unique and meaningful to users of assistive technology.</li>
 <li>For links that are repeated and go to the same destination, the same label and accessible name is used, so that they may be consistently identified.</li>
 <li>A third-party service is used to display advertising panels in pages. These are inserted via iframe and are identified by the title “3rd party ad content”.</li>
-</li>Pages are broken up into regions using ARIA landmark roles. If multiple of the same landmark exist on a page, they are provided with unique labels to identify them. For example, there is a "Site" navigation in the header of each page, and a "Further resources" navigation in the footer.</li>
+<li>Pages are broken up into regions using ARIA landmark roles. If multiple of the same landmark exist on a page, they are provided with unique labels to identify them. For example, there is a "Site" navigation in the header of each page, and a "Further resources" navigation in the footer.</li>
 </ul>
 </td>
 </tr>
