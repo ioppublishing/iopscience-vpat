@@ -854,7 +854,7 @@ Revised Section 508
 <td><strong>Examples of Supports</strong>
 <ul>
 <li>Pages have descriptive titles. A breadcrumb structure is used to help readers understand on which page, and which area of the site they currently are (e.g. "Issue 3 - Volume 4 - Journal of Physics: Energy - IOPscience").</li>
-<ul>
+</ul>
 </td>
 </tr>
 <tr id="focus-order" valign="top">
