@@ -424,7 +424,7 @@ Revised Section 508
 <td><strong>Examples of Supports</strong>
 <ul>
 <li>Video abstracts are accompanied by a transcript. A link to the transcript is located immediately below the video.</li>
-<li>For videos embeded with the Youtube player, a transcript is available when watching the video directly on the Youtube website.</li>
+<li>For videos embedded with the YouTube player, a transcript is available when watching the video directly on the YouTube website.</li>
 </ul>
 <strong>Examples of Does Not Support</strong>
 <ul>
