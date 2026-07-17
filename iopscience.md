@@ -552,7 +552,7 @@ Revised Section 508
 <td><strong>Examples of Supports</strong>
 <ul>
 <li>Content is structured in a linear fashion to read from left to right, top to bottom</li>
-<li>Thr DOM order matches the visual order so that tab focus and screen readers move in a predictable fashion.</li>
+<li>The DOM order matches the visual order so that tab focus and screen readers move in a predictable fashion.</li>
 <li>The order of content is dictated by the structural markup. CSS is used to style and position elements.</li>
 </ul>
 </td>
