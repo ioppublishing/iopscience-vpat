@@ -283,7 +283,7 @@ Tables 1 and 2 also document conformance with:
 <tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#language-of-parts"><strong>3.1.2 Language of Parts</strong></a></td>
 <td>AA</td>
-<td>Not Applicable</td>
+<td>Supports</td>
 </tr>
 <tr style="background-color:#C6E0B4;color:#000000">
 <td><a style="color:#000000;text-decoration:underline" href="#on-focus"><strong>3.2.1 On Focus</strong></a></td>
