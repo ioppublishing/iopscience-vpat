@@ -524,7 +524,7 @@ Revised Section 508
 <li>ARIA attributes are used to provide increased detail to assistive technologies, such as when an accordion widget is expanded or collapsed.</li>
 <li>Landmark regions are used to section pages, allowing readers to move easily from area to area.</li>
 <li>A logical heading structure is used to organise information.</li>
-<li>Forms are constructed using fieldsets to group related fields. All fields are labelled.</li>
+<li>Forms are constructed using fieldsets to group related fields. All fields are labelled. All fields are explicitly labelled using <label> elements.</li>
 <li>Groups of links are constructed using either unordered or ordered HTML lists, so that readers can identify how many links exist and skip over entire lists when desired.</li>
 </ul>
 </td>
