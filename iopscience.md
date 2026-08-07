@@ -1,4 +1,4 @@
-# IOPscience Accessibility Conformance Report International Edition
+<img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/d03da01c-beee-4fb1-b123-048ecbb201af" /># IOPscience Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5rev)
 
 **Name of Product/Version**: 22.34.0  
@@ -2162,7 +2162,7 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 <td>Hearing alone is not necessary to navigate the core content of the website.  Videos have closed captions.</td>
 </tr>
 <tr>
-<td>4.2.6 Usage without vocal capability</td>
+<td>4.2.6 Usage with no or limited vocal capability</td>
 <td>Supports</td>
 <td>Speech input is not required.</td>
 </tr>
@@ -2182,7 +2182,7 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 <td>We do not display any content with a high flashing or flicker rate.</td>
 </tr>
 <tr>
-<td>4.2.10 Usage with limited cognition</td>
+<td>4.2.10 Usage with limited cognition, language or learning</td>
 <td>Supports</td>
 <td>Content is presented in a clean and logical layout, with plenty of space to avoid overloading of information on screen.  Due to the nature of the content, many abbreviations and acronyms are present within it.</td>
 </tr>
