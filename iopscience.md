@@ -1887,9 +1887,9 @@ Notes: This product has not been evaluated for WCAG 2.x Level AAA conformance.
 <td>Supports</td>
 <td>The user interface is designed to support a variety of input methods. For touch navigation, on devices that support it, elements are designed to be large enough to not require very precise movements. For any content that utilises dragging movements, single pointer controls are also present to provide equivalent controls.</td>
 </tr>
-<tr>
+<tr id="508_302-8">
 <td>302.8 With Limited Reach and Strength</td>
-<td>Not Applicable</td>
+<td>Supports</td>
 <td></td>
 </tr>
 <tr>
@@ -2173,8 +2173,8 @@ Support provided via email at <a href="mailto:customerservices@ioppublishing.org
 </tr>
 <tr>
 <td>4.2.8 Usage with limited reach</td>
-<td>Not Applicable</td>
-<td></td>
+<td>Supports</td>
+<td>See Revised Section 508 Report <a href="#508_302-8">302.8 With Limited Reach and Strength</a></td>
 </tr>
 <tr>
 <td>4.2.9 Minimize photosensitive seizure triggers</td>
