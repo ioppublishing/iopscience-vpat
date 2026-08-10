@@ -1927,117 +1927,118 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.1 User Control of Accessibility Features</td>
-<td headers="502-interop chap-5-conformance"></td>
-<td headers="502-interop chap-5-remarks"></td>
+<td headers="502-interop chap-5-conformance">Not Applicable</td>
+<td headers="502-interop chap-5-remarks">IOPscience is not Platform Software as defined by Section 508. See <a href="https://www.access-board.gov/ict/#E103.4">E103.4 Defined Terms</a>.</td>
 </tr>
 <tr>
 <td headers="502-interop chap-5-criteria">502.2.2 No Disruption of Accessibility Features</td>
-<td headers="502-interop chap-5-conformance"></td>
-<td headers="502-interop chap-5-remarks"></td>
+<td headers="502-interop chap-5-conformance">Not Applicable</td>
+<td headers="502-interop chap-5-remarks">IOPscience is a website, compatible with a variety of operating system and browser accessibility features and preferences.</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="502-services">502.3 Accessibility Services</th>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.1 Object Information</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a></td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.2 Modification of Object Information</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a></td>
 </tr>
-<tr>
+<tr id="502-3-3">
 <td headers="502-services chap-5-criteria">502.3.3 Row, Column, and Headers</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">Tables are marked up using HTML <code>&lt;table&gt;</code> elements using a traditional structure of rows and columns. When applicable, table headers <code>&lt;thead&gt;</code> are included to display row and column titles.</td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.4 Values</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a></td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.5 Modification of Values</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a></td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.6 Label Relationships</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#headings-and-labels">WCAG 2.4.6 Headings and Labels</a> and <a href="#labels-or-instructions">WCAG 3.3.2 Labels or Instructions</a>.</td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.7 Hierarchical Relationships</td>
 <td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-remarks">See <a href="#info-and-relationships">WCAG 1.3.1 Info and Relationships</a>.</td>
 </tr>
-<tr>
+<tr id="502-3-8">
 <td headers="502-services chap-5-criteria">502.3.8 Text</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Partially Supports</td>
+<td headers="502-services chap-5-remarks">Text is presented as HTML plain text. Images have alternative text, though in a small number of cases it is not adequate to describe the visual content. See <a href="#non-text-content">WCAG 1.1.1 Non-text Content</a>.
+</td>
 </tr>
-<tr>
+<tr id="502-3-9">
 <td headers="502-services chap-5-criteria">502.3.9 Modification of Text</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">IOPscience uses standard HTML for elements which may receive user input and can be set programmatically through assistive technology.</td>
 </tr>
-<tr>
+<tr id="502-3-10">
 <td headers="502-services chap-5-criteria">502.3.10 List of Actions</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">Pages are marked up using standard HTML and when applicable, supplemented with ARIA attributes to communicate to assistive technology element roles, actions and behaviours.</td>
 </tr>
-<tr>
+<tr id="502-3-11">
 <td headers="502-services chap-5-criteria">502.3.11 Actions on Objects</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">All actions and behaviours associated with HTML elements are available to assistive technologies. See <a href="#keyboard">WCAG 2.1.1 Keyboard</a> and <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a>.</td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.12 Focus Cursor</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#focus-visible">WCAG 2.4.7 Focus Visible</a>.</td>
 </tr>
-<tr>
+<tr id="502-3-13">
 <td headers="502-services chap-5-criteria">502.3.13 Modification of Focus Cursor</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">Focus styles may be overridden by user operating system and browser preferences.</td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.3.14 Event Notification</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Supports</td>
+<td headers="502-services chap-5-remarks">See <a href="#error-identification">WCAG 3.3.1 Error Identification</a> and <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a>.</td>
 </tr>
 <tr>
 <td headers="502-services chap-5-criteria">502.4 Platform Accessibility Features</td>
-<td headers="502-services chap-5-conformance"></td>
-<td headers="502-services chap-5-remarks"></td>
+<td headers="502-services chap-5-conformance">Not Applicable</td>
+<td headers="502-services chap-5-remarks">IOPscience is not Platform Software as defined by Section 508. See <a href="https://www.access-board.gov/ict/#E103.4">E103.4 Defined Terms</a>.</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="503-apps"><a href="https://www.access-board.gov/ict/#503-applications">503 Applications</a></th>
 </tr>
-<tr>
+<tr id="503-2">
 <td headers="503-apps chap-5-criteria">503.2 User Preferences</td>
-<td headers="503-apps chap-5-conformance"></td>
-<td headers="503-apps chap-5-remarks"></td>
+<td headers="503-apps chap-5-conformance">Supports</td>
+<td headers="503-apps chap-5-remarks">User preferences set at the operating system, assistive technology or browser level may be used to override default styles.</td>
 </tr>
 <tr>
 <td headers="503-apps chap-5-criteria">503.3 Alternative User Interfaces</td>
-<td headers="503-apps chap-5-conformance"></td>
-<td headers="503-apps chap-5-remarks"></td>
+<td headers="503-apps chap-5-conformance">Not Applicable</td>
+<td headers="503-apps chap-5-remarks">IOPscience does not provide any alternative user interface that functions as assistive technology.</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="503-usercon">503.4 User Controls for Captions and Audio Description</th>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
-<td headers="503-usercon chap-5-conformance"></td>
-<td headers="503-usercon chap-5-remarks"></td>
+<td headers="503-usercon chap-5-conformance">Supports</td>
+<td headers="503-usercon chap-5-remarks">See <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded).</td>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
-<td headers="503-usercon chap-5-conformance"></td>
-<td headers="503-usercon chap-5-remarks"></td>
+<td headers="503-usercon chap-5-conformance">Does Not Support</td>
+<td headers="503-usercon chap-5-remarks">Videos on IOPscience do not include audio description.</td>
 </tr>
 <tr>
 <th scope="column" colspan="3" id="504-authoring"><a href="https://www.access-board.gov/ict/#504-authoring-tools">504 Authoring Tools</a></th>
@@ -2049,23 +2050,23 @@ Notes: This product is a web software application and is not subject to the requ
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.2.1 Preservation of Information Provided for Accessibility in Format Conversion</td>
-<td headers="504-authoring chap-5-conformance"></td>
-<td headers="504-authoring chap-5-remarks"></td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">IOPscience is not an authoring tool.</td>
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.2.2 PDF Export</td>
-<td headers="504-authoring chap-5-conformance"></td>
-<td headers="504-authoring chap-5-remarks"></td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">IOPscience is not an authoring tool.</td>
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.3 Prompts</td>
-<td headers="504-authoring chap-5-conformance"></td>
-<td headers="504-authoring chap-5-remarks"></td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">IOPscience is not an authoring tool.</td>
 </tr>
 <tr>
 <td headers="504-authoring chap-5-criteria">504.4 Templates</td>
-<td headers="504-authoring chap-5-conformance"></td>
-<td headers="504-authoring chap-5-remarks"></td>
+<td headers="504-authoring chap-5-conformance">Not Applicable</td>
+<td headers="504-authoring chap-5-remarks">IOPscience is not an authoring tool.</td>
 </tr>
 </tbody>
 </table>
@@ -2223,47 +2224,47 @@ Notes:
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.1 Captioning playback</td>
 <td headers="7-caption chap-7-conformance">Supports</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">See <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded)</a>.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.2 Captioning synchronization</td>
 <td headers="7-caption chap-7-conformance">Supports</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">See <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded)</a>.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.3 Preservation of captioning</td>
 <td headers="7-caption chap-7-conformance">Supports</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">The default appearance for captions is white text on a black background, positioned bottom-center of the window.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.4 Captions characteristics</td>
 <td headers="7-caption chap-7-conformance">Supports</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">See <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded)</a>.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.5 Spoken subtitles</td>
-<td headers="7-caption chap-7-conformance">Does Not Support</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-conformance">Partially Supports</td>
+<td headers="7-caption chap-7-remarks">Videos do not include an audio track with spoken subtitles. For videos that have an accompanying text transcript, this can be download for conversion into audio.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.2.1 Audio description playback</td>
 <td headers="7-caption chap-7-conformance">Does Not Support</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">Videos do not have audio description.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.2.2 Audio description synchronization</td>
 <td headers="7-caption chap-7-conformance">Does Not Support</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">Videos do not have audio description.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.2.3 Preservation of audio description</td>
 <td headers="7-caption chap-7-conformance">Does Not Support</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">Videos do not have audio description.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.3 User controls for captions and audio description</td>
 <td headers="7-caption chap-7-conformance">Supports</td>
-<td headers="7-caption chap-7-remarks"></td>
+<td headers="7-caption chap-7-remarks">For caption controls, see <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded)</a>. Videos do not have audio description controls.</td>
 </tr>
 </tbody>
 </table>                                  
@@ -2282,7 +2283,165 @@ Notes: This product does not include non-web documents and is therefore not subj
 
 ### Clause [11: Software](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=64)
 
-Notes: This section has been removed. IOPscience does not provide software.
+Notes:
+
+<table>
+<thead>
+<tr>
+<th scope="col" id="user-content-chap-11-criteria"><strong>Criteria</strong></th>
+<th scope="col" id="user-content-chap-11-conformance"><strong>Conformance Level</strong></th>
+<th scope="col" id="user-content-chap-11-remarks"><strong>Remarks and Explanations</strong></th>
+</tr>
+</thead>
+<tbody>
+ <tr>
+ <th scope="column" colspan="3" id="user-content-11-gen">11.0 General (informative)</th>
+ </tr>
+<tr>
+<td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
+<td headers="11-gen chap-11-conformance">See WCAG 2.x Section</td>
+<td headers="11-gen chap-11-remarks">See information in [WCAG section](#wcag-22-report).</td>
+</tr>
+<tr>
+<th scope="column" colspan="3" id="user-content-11-interop">11.5 Interoperability with assistive technology</th>
+</tr>
+<tr>
+<th scope="column" colspan="3" id="user-content-11-closed">11.5.1 Closed functionality (informative)</th>
+</tr>
+<tr>
+<th scope="column" colspan="3" id="user-content-11-a11y-serv">11.5.2.1 Accessibility services</th>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
+<td headers="11-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.2 Platform accessibility service support for assistive technologies</td>
+<td headers="11-a11y-serv chap-11-conformance">See 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.3 Use of accessibility services</td>
+<td headers="11-a11y-serv chap-11-conformance">See information in 11.5.2.5 through 11.5.2.17</td>
+<td headers="11-ally-serv chap-11-remarks">See information in 11.5.2.5 through 11.5.2.17</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.4 Assistive technology</td>
+<td headers="11-a11y-serv chap-11-conformance">Not Applicable</td>
+<td headers="11-ally-serv chap-11-remarks">IOPscience is not an Assistive Technology.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.5 Object information</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a></td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.6 Row, column, and headers</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#502-3-3">Section 508 502.3.3</a></td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.7 Values</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.8 Label relationships</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#headings-and-labels">WCAG 2.4.6 Headings and Labels</a> and <a href="#labels-or-instructions">WCAG 3.3.2 Labels or Instructions</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.9 Parent-child relationships</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#info-and-relationships">WCAG 1.3.1 Info and Relationships</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.10 Text</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#502-3-8">Section 508 502.3.8</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.11 List of available actions</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#502-3-10">Section 508 502.3.10</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.12 Execution of available actions</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#502-3-11">Section 508 502.3.11</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.13 Tracking of focus and selection attributes</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#focus-visible">WCAG 2.4.7 Focus Visible</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.14 Modification of focus and selection attributes</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#502-3-13">Section 508 502.3.13</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.15 Change notification</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#error-identification">WCAG 3.3.1 Error Identification</a> and <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.16 Modifications of states and properties</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a>.</td>
+</tr>
+<tr>
+<td headers="11-a11y-serv chap-11-criteria">11.5.2.17 Modifications of values and text</td>
+<td headers="11-a11y-serv chap-11-conformance">Supports</td>
+<td headers="11-ally-serv chap-11-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a> and <a href="#502-3-9">Section 508 502.3.9</a>.</td>
+</tr>
+<tr>
+<th scope="column" colspan="3" id="user-content-11-doc-a11y">11.6 Documented accessibility usage</th>
+</tr>
+<tr>
+<td headers="11-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
+<td headers="11-doc-a11y chap-11-conformance">Not Applicable</td>
+<td headers="11-doc-a11y chap-11-remarks">IOPscience is not platform software as defined by EN 301 549, 3.1 Terms.</td>
+</tr>
+<tr>
+<td headers="11-doc-a11y chap-11-criteria">11.6.2 No disruption of accessibility features</td>
+<td headers="11-doc-a11y chap-11-conformance">Not Applicable</td>
+<td headers="11-doc-a11y chap-11-remarks">IOPscience is not platform software as defined by EN 301 549, 3.1 Terms. </td>
+</tr>
+<tr>
+<td headers="11-doc-a11y chap-11-criteria">11.7 User preferences</td>
+<td headers="11-doc-a11y chap-11-conformance">Supports</td>
+<td headers="11-doc-a11y chap-11-remarks">The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets.</td>
+</tr>
+<tr>
+<th scope="column" colspan="3" id="user-content-11-authoring">11.8 Authoring tools</th>
+</tr>
+<tr>
+<th scope="column" colspan="3" id="user-content-11-content-tech">11.8.1 Content technology</th>
+</tr>
+<tr>
+<td headers="11-content-tech chap-11-criteria">11.8.2 Accessible content creation</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">IOPscience is not an authoring tool.</td>
+</tr>
+<tr>
+<td headers="11-content-tech chap-11-criteria">11.8.3 Preservation of accessibility information in transformations</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">IOPscience is not an authoring tool.</td>
+</tr>
+<tr>
+<td headers="11-content-tech chap-11-criteria">11.8.4 Repair assistance</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">IOPscience is not an authoring tool.</td>
+</tr>
+<tr>
+<td headers="11-content-tech chap-11-criteria">11.8.5 Templates</td>
+<td headers="11-content-tech chap-11-conformance">Not Applicable</td>
+<td headers="11-content-tech chap-11-remarks">IOPscience is not an authoring tool.</td>
+</tr>
+</tbody>
+</table>
 
 ### Clause [12: Documentation and Support Services](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=84)
 
