@@ -461,6 +461,8 @@ Revised Section 508
 <ul>
 <li>The majority of videos are embedded in the website using the Brightcove media player, captions may be turned on or off and their appearance customised.</li>
 <li>For any videos embedded using the YouTube media player, captions may be turned on and off.</li>
+<li>Captions are synchronised with audio.</li>
+<li>For videos with captions, a button for turning on/off and customising captions is provided at the same level as volume control in the video player interface.</li>
 </ul>
 </td>
 </tr>
@@ -524,7 +526,7 @@ Revised Section 508
 <li>ARIA attributes are used to provide increased detail to assistive technologies, such as when an accordion widget is expanded or collapsed.</li>
 <li>Landmark regions are used to section pages, allowing readers to move easily from area to area.</li>
 <li>A logical heading structure is used to organise information.</li>
-<li>Forms are constructed using fieldsets to group related fields. All fields are labelled. All fields are explicitly labelled using <label> elements.</li>
+<li>Forms are constructed using fieldsets to group related fields. All fields are explicitly labelled using <label> elements.</li>
 <li>Groups of links are constructed using either unordered or ordered HTML lists, so that readers can identify how many links exist and skip over entire lists when desired.</li>
 </ul>
 </td>
