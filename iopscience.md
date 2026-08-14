@@ -1,8 +1,8 @@
-<img width="468" height="25" alt="image" src="https://github.com/user-attachments/assets/d03da01c-beee-4fb1-b123-048ecbb201af" /># IOPscience Accessibility Conformance Report International Edition
+# IOPscience Accessibility Conformance Report International Edition
 (Based on VPAT® Version 2.5rev)
 
-**Name of Product/Version**: 22.34.0  
-**Report Date**: 17 July 2026  
+**Name of Product/Version**: iopscience.iop.org/22.34.0  
+**Report Date**: 10 August 2026  
 **Product Description**: Academic journal repository  
 **Contact information**: jordan.rogers@ioppublishing.org, customerservices@ioppublishing.org  
 **Notes**:  
