@@ -2033,7 +2033,7 @@ Notes: This product is a web software application and is not subject to the requ
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.1 Caption Controls</td>
 <td headers="503-usercon chap-5-conformance">Supports</td>
-<td headers="503-usercon chap-5-remarks">See <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded).</td>
+<td headers="503-usercon chap-5-remarks">See <a href="#captions-prerecorded">WCAG 1.2.2 Captions (Prerecorded).</a></td>
 </tr>
 <tr>
 <td headers="503-usercon chap-5-criteria">503.4.2 Audio Description Controls</td>
@@ -2244,7 +2244,7 @@ Notes:
 <tr>
 <td headers="7-caption chap-7-criteria">7.1.5 Spoken subtitles</td>
 <td headers="7-caption chap-7-conformance">Partially Supports</td>
-<td headers="7-caption chap-7-remarks">Videos do not include an audio track with spoken subtitles. For videos that have an accompanying text transcript, this can be download for conversion into audio.</td>
+<td headers="7-caption chap-7-remarks">Videos do not include an audio track with spoken subtitles. For videos that have an accompanying text transcript, this can be downloaded for conversion into audio.</td>
 </tr>
 <tr>
 <td headers="7-caption chap-7-criteria">7.2.1 Audio description playback</td>
@@ -2288,14 +2288,14 @@ Notes:
 <table>
 <thead>
 <tr>
-<th scope="col" id="user-content-chap-11-criteria"><strong>Criteria</strong></th>
-<th scope="col" id="user-content-chap-11-conformance"><strong>Conformance Level</strong></th>
-<th scope="col" id="user-content-chap-11-remarks"><strong>Remarks and Explanations</strong></th>
+<th scope="col" id="chap-11-criteria"><strong>Criteria</strong></th>
+<th scope="col" id="chap-11-conformance"><strong>Conformance Level</strong></th>
+<th scope="col" id="chap-11-remarks"><strong>Remarks and Explanations</strong></th>
 </tr>
 </thead>
 <tbody>
  <tr>
- <th scope="column" colspan="3" id="user-content-11-gen">11.0 General (informative)</th>
+ <th scope="column" colspan="3" id="11-gen">11.0 General (informative)</th>
  </tr>
 <tr>
 <td headers="11-gen chap-11-criteria">11.1.1 through 11.4.1.3</td>
@@ -2303,13 +2303,13 @@ Notes:
 <td headers="11-gen chap-11-remarks">See information in [WCAG section](#wcag-22-report).</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="user-content-11-interop">11.5 Interoperability with assistive technology</th>
+<th scope="column" colspan="3" id="11-interop">11.5 Interoperability with assistive technology</th>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="user-content-11-closed">11.5.1 Closed functionality (informative)</th>
+<th scope="column" colspan="3" id="11-closed">11.5.1 Closed functionality (informative)</th>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="user-content-11-a11y-serv">11.5.2.1 Accessibility services</th>
+<th scope="column" colspan="3" id="11-a11y-serv">11.5.2.1 Accessibility services</th>
 </tr>
 <tr>
 <td headers="11-a11y-serv chap-11-criteria">11.5.2.1 Platform accessibility service support for software that provides a user interface</td>
@@ -2397,7 +2397,7 @@ Notes:
 <td headers="11-ally-serv chap-11-remarks">See <a href="#name-role-value">WCAG 4.1.2 Name, Role, Value</a> and <a href="#502-3-9">Section 508 502.3.9</a>.</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="user-content-11-doc-a11y">11.6 Documented accessibility usage</th>
+<th scope="column" colspan="3" id="11-doc-a11y">11.6 Documented accessibility usage</th>
 </tr>
 <tr>
 <td headers="11-doc-a11y chap-11-criteria">11.6.1 User control of accessibility features</td>
@@ -2415,10 +2415,10 @@ Notes:
 <td headers="11-doc-a11y chap-11-remarks">The pages of this product use standard HTML and CSS attributes that may be overridden in user-supplied style sheets.</td>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="user-content-11-authoring">11.8 Authoring tools</th>
+<th scope="column" colspan="3" id="11-authoring">11.8 Authoring tools</th>
 </tr>
 <tr>
-<th scope="column" colspan="3" id="user-content-11-content-tech">11.8.1 Content technology</th>
+<th scope="column" colspan="3" id="11-content-tech">11.8.1 Content technology</th>
 </tr>
 <tr>
 <td headers="11-content-tech chap-11-criteria">11.8.2 Accessible content creation</td>
